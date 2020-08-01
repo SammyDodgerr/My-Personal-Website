@@ -1,0 +1,145 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Personal Website</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="css/homeCSSFiles/styles.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!--Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+      <!-- app id for api Open Weather App - 239199c3ce5412affba37b848d40b851 -->
+
+      <!-- Navbar -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="">My Personal Website</a><img class="tgLogo img-fluid" src="Logo/TG.png">
+            <!-- Toggle Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerMenu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+          <!-- Navbar Contents -->
+          <div class="collapse navbar-collapse" id="navbarTogglerMenu">
+          <!-- Navbar Links -->
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 <i class="fas fa-desktop"></i> My Coding Skillset
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">HTML5</a>
+                  <a class="dropdown-item" href="#">CSS3</a>
+                  <a class="dropdown-item" href="#">Bootstrap 4</a>
+                  <a class="dropdown-item" href="#">JavaScript ES6</a>
+                  <a class="dropdown-item" href="#">jQuery</a>
+                  <a class="dropdown-item" href="#">Command Line</a>
+                  <a class="dropdown-item" href="#">Node.js</a>
+                  <a class="dropdown-item" href="#">Express.js</a>
+                  <a class="dropdown-item" href="#">API's</a>
+                </div>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 <i class="fas fa-pencil-alt"></i> Artwork Descriptions
+                </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#thirdContainer">Stadium Drawing</a>
+                <a class="dropdown-item" href="#fourthContainer">Windmill Drawing</a>
+              </div>
+              </li>
+
+              <li class="nav-item biography">
+                <a class="nav-link" href="biography.html"><i class="fas fa-book"></i> Biography</a>
+              </li>
+
+              <li class="nav-item contactMe">
+                <a class="nav-link" href="/"><i class="fas fa-envelope-square"></i> Contact</a>
+              </li>
+
+            </ul>
+          </div>
+        </nav>
+
+
+        <div id="titleContainer">
+          <!-- Title -->
+          <div>
+            <h1 class="Title">I'm Tristan</h1>
+          </div>
+          <!-- Title Image -->
+          <div>
+            <img class="img-fluid canalDrawing" src="Images/homeDrawings/canalDrawing.png" alt="House and Canal Drawing" title="House and Canal, Somerset">
+          </div>
+        </div>
+
+    <div id="secondContainer">
+      <!-- Description Section -->
+      <div>
+        <p class="openingDescription">I am looking for my first role as a Front-end Web Developer, so I have created a
+        'Personal Project' website. My favourite hobby is drawing, so I have displayed some of my most recent and pen and
+        pencil works.</p>
+      </div>
+      <div>
+        <p class="secondDescription">My typical subject matter is the landscapes and building around me in the United Kingdom.
+        Having lived in the country all my life, I enjoy replicating scenes I have seen from memory and photographs alike.</p></div>
+      </div>
+      <!-- Tower Block Image -->
+      <div>
+        <img class="img-fluid towerBlockDrawing" src="Images/homeDrawings/towerblockDrawing.png" alt="Tower Blocks Drawing" title="Tower Blocks, Hampshire">
+      </div>
+
+      <!-- Stadium and Windmill Section -->
+          <div id="thirdContainer">
+            <div>
+              <img class="stadiumDrawing" src="Images/homeDrawings/stadiumDrawing.png" alt="Stadium Drawing" title="Millwall FC, Greater London">
+            </div>
+            <div class="stadiumDescriptionContainer">
+              <p class="stadiumDescription">Depicting buildings is enjoyable, because I can demonstrate perspective based upon the angle
+              and viewpoint.
+              The details such as brickwork, lighting or pipe work are recognisable and therefore pleasing to replicate.</p>
+              <p class="stadiumDescription">Furthermore, drawing 'The Den', home to <a href="https://www.millwallfc.co.uk/" target="_blank">Millwall Football Club</a> intriguing,
+              because of the physical size of the stadium and its significance to the local community in <a href="https://en.wikipedia.org/wiki/Bermondsey" target="_blank">Bermondsey</a>, South London.
+              Football Stadiums have a particular prominence in the urban typography of towns and cities in Britain. They can be viewed as
+              landmarks; juxtaposed to housing estates, shopping parades and pubs.</p>
+              <p class="stadiumDescription">Working with fine line pens is useful for attempting to reimagine British scenes, because
+              the dark tones can be utilised to show the <a href="https://www.metoffice.gov.uk/weather/learn-about/weather/types-of-weather/rain/how-much-does-it-rain-in-the-uk" target="_blank">gloomy weather!</a></p>
+            </div>
+          </div>
+
+          <div id="fourthContainer">
+            <div>
+              <img class="windmillDrawing" src="Images/homeDrawings/windmillDrawing.png" alt="Windmill Drawing" title="Windmill, Wiltshire">
+            </div>
+            <div class="windmillDescriptionContainer">
+              <p class="windmillDescription">For similar reasons to my drawing of a stadium, I chose to draw a windmill close to where
+              I grew up. Standing on the top of hills in rural landscapes, windmills can be uncommon features, sharply contrasting the
+              farmland, roads and villages surrounding them.</p>
+              <p class="windmillDescription">Drawing brickwork is the best part of creating building themed artwork in my experience.
+              It can simultaneously provide scale, curvature and shadow; bringing previously flat looking objects to life and (hopefully)
+              showing an effective illusion of 3-dimension.</p>
+              <p class="windmillDescription">Blades of grass and knots in the wood of fencing and gates are other intricate details,
+              contributing to an overall image and sense of realism.</p>
+            </div>
+          </div>
+
+
+        <!-- Footer Section -->
+        <div class="container-fluid" id="fifthContainer">
+          <p class="text-center" id="footer">© Copyright 2020 Tristan Griffiths, My Personal Website</p>
+        </div>
+
+    <!-- Additional bootstrap links -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    </body>
+</html>
