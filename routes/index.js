@@ -27,14 +27,4 @@ router.get('/register', function(req, res) {
   res.render('register');
 });
 
-//router.get('/secrets', function(req, res) {
-  //console.log('Request for secrets page recieved');
-  //res.render('secrets');
-//});
-
-router.get('/submit', function(req, res) {
-  console.log('Request for submit page recieved');
-  res.render('submit');
-});
-
 module.exports = router;

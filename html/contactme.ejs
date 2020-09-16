@@ -1,57 +1,58 @@
 <html lang="en" dir="ltr">
-  <%- include("partials/header") -%>
+<%- include("partials/header") -%>
 
 <head>
   <link href="contactMe.css" rel="stylesheet">
 </head>
 
-  <body>
+<body>
 
   <!-- Background Drawings -->
-      <div id="backgroundContainer">
-        <img class="bckgrndDrawing img-fluid" src="pylonsDrawing.png">
-      </div>
+  <div id="backgroundContainer">
+    <img class="bckgrndDrawing img-fluid" src="pylonsDrawing.png">
+  </div>
 
-      <div id="backgroundContainer">
-        <img class="bckgrndDrawing img-fluid" src="phoneDrawing.png">
-      </div>
+  <div id="backgroundContainer">
+    <img class="bckgrndDrawing img-fluid" src="phoneDrawing.png">
+  </div>
 
-      <div id="backgroundContainer">
-        <img class="bckgrndDrawing img-fluid" src="motorwayJunctionDrawing.png">
-      </div>
+  <div id="backgroundContainer">
+    <img class="bckgrndDrawing img-fluid" src="motorwayJunctionDrawing.png">
+  </div>
 
-      <!-- Title Container -->
-      <div class="titleContainer text-center">
-          <h1 class="pageTitle display-4">Contact Me</h1>
-        <div class="titleContainerText">
-          <p>Below is a contact form attached to my e-mail address.</p>
-        </div>
-        <div class="titleContainerText2">
-          <p>Links to other pages of my website:</p>
-          <a class="btn selectors" href="/" role="button"><img class="Favicon" src="home.png"> Home</a>
-          <a class="btn selectors" href="/biography" role="button"><img class="Favicon" src="book.png"> Biography</a>
-          <a class="btn selectors" href="/login" role="button"><img class="Favicon" src="key.png"> Login</a>
-          <a class="btn selectors" href="/register" role="button"><img class="Favicon" src="member.png"> Register</a>
-          <a class="btn selectors" href="/list" role="button"><img class="Favicon" src="list.png"> List</a>
-        </div>
-      </div>
+  <!-- Title Container -->
+  <div class="titleContainer text-center">
+    <h1 class="pageTitle display-4">Contact Me</h1>
+    <div class="titleContainerText">
+      <p>Below is a contact form attached to my e-mail address.</p>
+    </div>
+    <div class="titleContainerText2">
+      <p>Links to other pages of my website:</p>
+      <a class="btn selectors" href="/" role="button"><img class="Favicon" src="home.png"> Home</a>
+      <a class="btn selectors" href="/biography" role="button"><img class="Favicon" src="book.png"> Biography</a>
+      <a class="btn selectors" href="/login" role="button"><img class="Favicon" src="key.png"> Login</a>
+      <a class="btn selectors" href="/register" role="button"><img class="Favicon" src="member.png"> Register</a>
+      <a class="btn selectors" href="/list" role="button"><img class="Favicon" src="list.png"> List</a>
+    </div>
+  </div>
 
-    <!-- Mail List -->
-    <form action="/contactme" class="form-signUp text-center" method="post">
-      <img class="tgLogo" src="TG.png">
+  <!-- Mail List -->
+  <form action="/contactme" class="form-signUp text-center" method="post">
+    <img class="tgLogo" src="TG.png">
 
     <div class="inputContent">
       <h1 class="signUpHeader h3 mb-3 font-weight-normal">Sign Up to my E-mail list:</h1>
-      <input type="text" name="fName" class="form-control top" placeholder="First Name" autocomplete="off" required autofocus >
+      <input type="text" name="fName" class="form-control top" placeholder="First Name" autocomplete="off" required autofocus>
       <input type="text" name="lName" class="form-control middle" placeholder="Last Name" autocomplete="off" required>
       <input type="email" name="email" class="form-control bottom" placeholder="Email" autocomplete="off" required>
       <button class="signUpButton btn btn-lg" name="contactme" type="submit">Sign me up!</button>
     </div>
 
-    </form>
+  </form>
 
 
-    <%- include("partials/footer") -%>
+  <%- include("partials/footer") -%>
 
-  </body>
+</body>
+
 </html>
