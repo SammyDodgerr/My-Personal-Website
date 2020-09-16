@@ -1,0 +1,172 @@
+@import "generalStyles.css";
+
+/*Navbar */
+.navbar {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 7.5vw;
+  background-color: #10375C;
+  padding: 0.5vw;
+}
+
+.fixed-top {
+  position: fixed;
+}
+
+.navbar-brand {
+  position: absolute;
+  margin: 0 1vw 0 1vw;
+  font-size: 1.8vw;
+}
+
+.tgLogo {
+  position: absolute;
+  margin: 1vw 0 0 17vw;
+  width: 8vw;
+  border-radius: 50%;
+  border: 0.5vw solid #10375C;
+}
+
+.navbar-toggler {
+  position: absolute;
+  width: 6.5%;
+  height: 5vw;
+  top: 1vw;
+  right: 1vw;
+  margin: 0.25vw;
+  padding: 0.25vw 0.8vw;
+  border-radius: 0.4vw;
+}
+
+.navbar-toggler-icon {
+  position: absolute;
+  top: 0.3vw;
+  right: 0.8vw;
+  height: 4vw;
+  width: 4vw;
+}
+
+.nav-item {
+  font-size: 1.25vw;
+}
+
+/*Title Segment */
+#titleContainer {
+  position: relative;
+}
+
+.Title {
+  position: absolute;
+  top: 10vw;
+  right: 15vw;
+  text-align: right;
+  font-size: 4vw;
+}
+
+@media (max-width: 900px) {
+  .Title {
+    position: absolute;
+    top: 9.5vw;
+  }
+}
+
+/*Second Segment */
+#secondContainer {
+  position: relative;
+}
+
+.openingDescription {
+  position: absolute;
+  top: 3vw;
+  left: 19vw;
+  width: 37vw;
+  font-size: 1.5vw;
+  line-height: 3.25vw;
+}
+
+@media (max-width: 900px) {
+  .openingDescription {
+    font-size: 1.8vw;
+  }
+}
+
+.secondDescription {
+  position: absolute;
+  top: 18vw;
+  left: 61vw;
+  width: 32vw;
+  font-size: 1.5vw;
+  line-height: 3.25vw;
+}
+
+@media (max-width: 900px) {
+  .secondDescription {
+    font-size: 1.8vw;
+  }
+}
+
+/*Third Segment */
+#stadiumContainer {
+  position: relative;
+  margin: 2vw 0 0 0;
+  width: 100%;
+  height: 50vw;
+}
+
+@media (max-width: 900px) {
+  #stadiumContainer {
+    height: 50vw;
+  }
+}
+
+.stadiumDrawing {
+  position: absolute;
+  width: 42%;
+  left: 4vw;
+}
+
+@media (max-width: 900px) {
+  .stadiumDrawing {
+    margin-top: 3vw;
+  }
+}
+
+.stadiumDescriptionContainer {
+  position: absolute;
+  margin: 0vw 4vw 0vw 48vw;
+}
+
+.description {
+  padding: 0.3vw 0;
+  font-size: 1.3vw;
+  line-height: 3.25vw;
+}
+
+@media (max-width: 900px) {
+  .description {
+    font-size: 1.5vw;
+  }
+}
+
+#windmillContainer {
+  position: relative;
+  margin: 2vw 0 0 0;
+  width: 100%;
+  height: 50vw;
+}
+
+.windmillDrawing {
+  position: absolute;
+  width: 42%;
+  left: 50vw;
+  top: 2vw;
+  right: 2vw;
+}
+
+.windmillDescriptionContainer {
+  position: absolute;
+  top: 0vw;
+  margin-left: 4vw;
+  margin-right: 50vw;
+}

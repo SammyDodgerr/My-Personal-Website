@@ -1,0 +1,29 @@
+body {
+  background-color: #F7FBE1;
+  font-family: "Raleway", serif;
+}
+
+h1 {
+  color: #10375C;
+}
+
+p {
+  color: #10375C;
+  font-weight: lighter;
+  margin-bottom: 0.2vw;
+  padding: 0.2vw 0;
+  font-size: 1.8vw;
+}
+
+@media (min-width: 750px) and (max-width: 900px) {
+  p {
+    font-size: 2vw;
+  }
+}
+
+.btn {
+  background-color: #10375C;
+  color: #F7FBE1;
+  padding: 1.8vw;
+  font-size: 2vw;
+}

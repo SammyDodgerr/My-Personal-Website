@@ -1,0 +1,52 @@
+body {
+  background-color: #F7FBE1;
+  color: #10375C;
+  font-family: "Raleway", serif;
+}
+
+h1 , h2, h5 {
+  color: #10375C;
+}
+
+p {
+  color: #10375C;
+  font-weight: lighter;
+  margin-bottom: 0.2vw;
+  padding: 0.2vw 0;
+  font-size: 1.8vw;
+}
+
+@media (min-width: 750px) and (max-width: 900px) {
+  p {
+    font-size: 2vw;
+  }
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+.Favicon {
+  width: 2vw;
+}
+
+/* Footer segment */
+#footerContainer {
+  position: relative;
+  z-index: 2;
+  background-color: #10375C;
+  height: 8vw;
+  width: 100%;
+}
+
+.footer {
+  padding: 2vw 0 2vw 0;
+  color: #F7FBE1;
+  font-size: 1.3vw;
+}
+
+@media (max-width: 900px) {
+  .footer {
+    font-size: 1.5vw;
+  }
+}

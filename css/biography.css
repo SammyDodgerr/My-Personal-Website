@@ -1,0 +1,84 @@
+@import "generalStyles.css";
+
+@import "generalStylesNotHOME.css";
+
+.europeBackgroundDrawing {
+  position: relative;
+  top: 0;
+  width: 100%;
+  opacity: 0.9;
+}
+
+/* Card Segment */
+.card {
+  margin: 0.5vw;
+  opacity: 0.8;
+  width: 40%;
+  position: absolute;
+  z-index: 2;
+  top: 55vw;
+  background-color: #F7FBE1;
+  border-radius: 2%;
+}
+
+.educationSegment {
+  left: 5vw;
+}
+
+.passionForArtSegment {
+  right: 5vw;
+}
+
+.card-header {
+  color: #10375C;
+  font-size: 2vw;
+  padding: 1vw;
+}
+
+.card-body {
+  padding: 3vw 3vw;
+}
+
+/* Beach Drawing Three Part Segment */
+.rhossiliDrawing {
+  position: relative;
+  width: 33.33%;
+  float: left;
+}
+
+/* Carousel Section */
+.carouselSection {
+  position: absolute;
+  top: 140vw;
+  width: 100%;
+}
+
+/* Photos Carousel */
+#europeanCitiesPhotos {
+  position: absolute;
+  opacity: 0.8;
+  width: 100%;
+}
+
+/* Drawings Carousel */
+#europeanCitiesDrawings {
+  position: relative;
+  z-index: 1;
+  padding: 15vw 15vw 10vw;
+}
+
+.carousel-caption {
+  position: absolute;
+  opacity: 0.7;
+  background-color: #F7FBE1;
+}
+
+.titleCarousel {
+  color: #10375C;
+}
+
+@media (max-width: 900px) {
+  .titleCarousel {
+    font-size: 2.2vw;
+  }
+}

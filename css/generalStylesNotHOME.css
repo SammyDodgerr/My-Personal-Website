@@ -1,0 +1,90 @@
+/* Title */
+.tgLogo {
+  position: relative;
+  top: 5vw;
+  height: 8vw;
+  width: 8vw;
+  border-radius: 50%;
+  border: 0.5vw solid #10375C;
+}
+
+.titleContainer {
+  position: absolute;
+  z-index: 1;
+  top: 20%;
+  display: block;
+  left: 10%;
+  width: 70vw;
+  height: 32vw;
+  opacity: 0.8;
+  background-color: #F7FBE1;
+  border-radius: 2%;
+}
+
+@media (min-width: 750px) and (max-width: 900px) {
+  .titleContainer {
+    top: 10%;
+  }
+}
+
+@media (max-width: 750px) {
+  .titleContainer {
+    top: 5%;
+  }
+}
+
+.titleContainer h1 {
+  position: absolute;
+  top: 2vw;
+  left: 2vw;
+  color: #10375C;
+  font-size: 6vw;
+}
+
+.titleContainerText {
+  position: absolute;
+  top: 11vw;
+  left: 2vw;
+}
+
+.titleContainerText2 {
+  position: absolute;
+  top: 18vw;
+  left: 2vw;
+}
+
+.btn {
+  background-color: #10375C;
+  color: #F7FBE1;
+  padding: 1.8vw;
+  font-size: 2vw;
+}
+
+@media (min-width: 750px) and (max-width: 900px) {
+  .btn {
+    padding: 1.4vw;
+  }
+}
+
+@media (max-width: 750px) {
+  .btn {
+    padding: 1.2vw;
+  }
+}
+
+.selectors:hover {
+  background-color: #F7FBE1;;
+  border: 0.2vw solid #10375C;
+  color: #10375C;
+}
+
+/*Background Drawings*/
+#backgroundContainer {
+  position: relative;
+  margin: 0;
+  width: 100%;
+}
+
+.bckgrndDrawing {
+  opacity: 0.9;
+}

@@ -1,0 +1,110 @@
+<html lang="en" dir="ltr">
+<%- include("partials/header") -%>
+
+<head>
+  <link href="biography.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Europe Background Image -->
+  <div>
+    <img class="europeBackgroundDrawing img-fluid" src="europeBackgroundDrawing.png">
+  </div>
+
+  <!-- Title Container -->
+  <div class="titleContainer text-center">
+    <h1 class="pageTitle display-4">Biography</h1>
+    <div class="titleContainerText">
+      <p>text.</p>
+    </div>
+    <div class="titleContainerText2">
+      <p>Links to other pages of my website:</p>
+      <a class="btn selectors" href="/" role="button"><img class="Favicon" src="home.png"> Home</a>
+      <a class="btn selectors" href="/contactme" role="button"><img class="Favicon" src="letter.png"> Contact Me</a>
+      <a class="btn selectors" href="/login" role="button"><img class="Favicon" src="key.png"> Login</a>
+      <a class="btn selectors" href="/register" role="button"><img class="Favicon" src="member.png"> Register</a>
+      <a class="btn selectors" href="/list" role="button"><img class="Favicon" src="list.png"> List</a>
+    </div>
+  </div>
+
+  <!-- Card 1-->
+  <div class="row">
+    <div class="card educationSegment">
+      <div class="text-center card-header">Education</div>
+      <div class="card-body">
+        <p class="cardDescription card-text">Prior to attending university, I studied Art, Politics and Geography at A level.</p>
+        <p class="cardDescription">During my time at sixth form, I was particularly passionate about my Art course, partaking
+          in educational trips visiting art galleries in New York, Florence and Rome.</p>
+        <p class="cardDescription">Such experiences strengthened my existing interest in design, leading me to be captivated
+          by the process of coding a personalised website composition.</p>
+      </div>
+    </div>
+  </div>
+  <!-- Card 2 -->
+  <div class="card passionForArtSegment">
+    <div class="text-center card-header">Passion for Art & Design</div>
+    <div class="card-body">
+      <p class="cardDescription card-text">Since graduating, I have further pursued my creative interests in my spare time, completing drawings
+        replicating photographs I have taken. </p>
+      <p class="cardDescription">Visiting cities including Edinburgh, Dublin and Bordeaux; I have observed cultural centres housing
+        some of the world's most interesting architecture, landscapes and monuments.</p>
+      <p class="cardDescription">Following these city breaks, I have sketched scenes that inspired me most firsthand, as shown in the carousel slideshow
+        below.</p>
+    </div>
+  </div>
+  </div>
+
+  <!-- Beach Drawing Three Part Segment -->
+  <div>
+    <img class="rhossiliDrawing img-fluid" src="rhossiliOne.png">
+    <img class="rhossiliDrawing" src="rhossiliTwo.png">
+    <img class="rhossiliDrawing" src="rhossiliThree.png">
+  </div>
+
+  <div class="carouselSection">
+
+    <!-- Background Photos Carousel -->
+    <div id="europeanCitiesPhotos" class="carousel slide" data-ride="carousel" data-interval="5000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="bordeauxPhoto.png" class="w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="edinburghPhoto.png" class="w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="naplesPhoto.png" class="w-100">
+        </div>
+      </div>
+    </div>
+
+    <!-- Drawings Carousel -->
+    <div id="europeanCitiesDrawings" class="carousel slide" data-ride="carousel" data-interval="5000">
+      <div class="carousel-inner">
+
+        <!-- First Carousel Item -->
+        <div class="carousel-item active">
+          <!-- First Carousel Image -->
+          <img src="bordeauxDrawing.png" class="w-100">
+          <!-- First Carousel Label -->
+          <div class="carousel-caption m-1 p-2">
+            <h5 class="titleCarousel m-1">Pont de Pierre, Bordeaux</h5>
+          </div>
+        </div>
+        <!-- Second Carousel Item -->
+        <div class="carousel-item">
+          <!-- Second Carousel Image -->
+          <img src="edinburghDrawing.png" class="w-100">
+          <!-- Second Carousel Label -->
+          <div class="carousel-caption m-1 p-2">
+            <h5 class="titleCarousel m-1">Edinburgh Castle, Edinburgh</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

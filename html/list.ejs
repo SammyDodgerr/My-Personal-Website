@@ -1,0 +1,55 @@
+<%- include("partials/header") -%>
+
+<head>
+  <link href="list.css" rel="stylesheet">
+</head>
+
+<!-- BreadCrumb -->
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a class="breadcrumbLink" href="/">Home</a></li>
+      <li class="breadcrumb-item"><a class="breadcrumbLink" href="/Biography">Biography</a></li>
+      <li class="breadcrumb-item"><a class="breadcrumbLink" href="/ContactMe">Contact</a></li>
+      <li class="breadcrumb-item"><a class="breadcrumbLink" href="/Login">Login</a></li>
+      <li class="breadcrumb-item"><a class="breadcrumbLink" href="/Register">Register</a></li>
+      <li class="breadcrumb-item active" aria-current="page">List</li>
+    </ol>
+  </nav>
+
+<!-- Title -->
+  <div class="box">
+    <h1> <%= listTitle %> </h1>
+  </div>
+
+<!-- Underlying Transformed Drawings -->
+  <img class="listSketch listDrawing1 img-fluid" src="listDrawing.png">
+  <img class="listSketch listDrawing2 img-fluid" src="listDrawing2.png">
+  <img class="listSketch listDrawing3 img-fluid" src="listDrawing.png">
+
+<!-- List Forms -->
+  <div class="box">
+
+  <%  newListItems.forEach(function(item){ %>
+
+    <form action="/delete" method="post">
+      <div class="item">
+        <input type="checkbox" name="checkbox" value="<%=item._id%>" onChange="this.form.submit()">
+        <p><%=item.name%></p>
+      </div>
+      <input type="hidden" name="listName" value="<%= listTitle %>"></input>
+    </form>
+  <% }) %>
+
+      <form action="/list" class="list item" method="post">
+        <input type="text" name="newItem" placeholder="New Item" autocomplete="off">
+        <button class="selectors list" type="submit" name="list" value="<%= listTitle %>">+</button>
+      </form>
+  </div>
+
+  <!-- Relative Drawings -->
+  <div class="listSegment">
+    <img class="listRelative img-fluid" src="listDrawing3.png">
+    <img class="listRelative img-fluid" src="listDrawing4.png">
+  </div>
+
+<%- include("partials/footer") -%>

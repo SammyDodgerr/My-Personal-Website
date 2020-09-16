@@ -1,0 +1,18 @@
+<html lang="en" dir="ltr">
+  <%- include("moreHTML/header") -%>
+  <head>
+    <link href="successAndFailure.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Apologies!</h1>
+      <p class="lead">There was a problem with the sign up process, please try again.</p>
+
+      <form action="/failure" method="post">
+        <button class="btn" type="submit" name="button">Try again</button>
+      </form>
+    </div>
+  </div>

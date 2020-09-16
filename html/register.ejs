@@ -1,0 +1,55 @@
+<html lang="en" dir="ltr">
+  <%- include("partials/header") -%>
+
+  <head>
+    <link href="security.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+  <!-- Breadcrumb -->
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a class="breadcrumbLink" href="/">Home</a></li>
+      <li class="breadcrumb-item"><a class="breadcrumbLink" href="/Biography">Biography</a></li>
+      <li class="breadcrumb-item"><a class="breadcrumbLink" href="/ContactMe">Contact</a></li>
+      <li class="breadcrumb-item"><a class="breadcrumbLink" href="/Login">Login</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Register</li>
+      <li class="breadcrumb-item"><a class="breadcrumbLink" href="/List">List</a></li>
+    </ol>
+  </nav>
+
+  <!-- Wealth Drawings -->
+  <div id="wDrawings">
+    <img class="wealthDrawings1" src="keyDrawing.png">
+    <img class="wealthDrawings1" src="countryHouseDrawing.png">
+  </div>
+
+  <!-- Form -->
+  <div id="loginBox">
+      <form action="/register" method="post" class="security">
+        <img class="tgLogo" src="TG.png">
+        <div class="form-group">
+          <label class="securityLabel" for="email">Email</label>
+          <input type="email" class="form-control" name="username">
+        </div>
+        <div class="form-group">
+          <label class="securityLabel" for="password">Password</label>
+          <input type="password" class="form-control" name="password">
+        </div>
+        <button type="submit" class="btn selectors" href=""><img class="Favicon" src="member.png"> Register</button>
+      </form>
+  </div>
+
+  <div id="wDrawings2">
+    <img class="wealthDrawings2" src="ferrariDrawing.png">
+  </div>
+
+  <div id="wDrawings2">
+    <img class="wealthDrawings2 f1Drawing" src="formula1Drawing.png">
+  </div>
+
+    <%- include("partials/footer") -%>
+
+  </body>
+</html>

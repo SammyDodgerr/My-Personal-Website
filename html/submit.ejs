@@ -1,0 +1,40 @@
+<html lang="en" dir="ltr">
+  <%- include("partials/header") -%>
+
+  <head>
+    <link href="security.css" rel="stylesheet">
+  </head>
+
+    <body>
+
+      <div class="container">
+        <div class="jumbotron">
+          <h1>Secrets</h1>
+          <p class="secret-text">Don't keep your secrets, share them anonymously!</p>
+
+          <form action="/submit" method="POST">
+
+            <div class="form-group">
+              <input class="text-center" type="text" name="secret" placeholder="What's your secret?">
+            </div>
+            <button type="submit" class="btn selectors"><img class="Favicon" src="submit.png"> Submit</button>
+          </form>
+
+
+        </div>
+      </div>
+
+      <div id="wDrawings2">
+        <img class="wealthDrawings2" src="stairsDrawing1.png">
+      </div>
+
+      <div id="wDrawings2">
+        <img class="wealthDrawings2" src="stairsDrawing2.png">
+      </div>
+
+
+
+    <%- include("partials/footer") -%>
+
+    </body>
+  </html>
